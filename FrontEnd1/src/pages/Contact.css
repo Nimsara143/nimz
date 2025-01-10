@@ -1,0 +1,92 @@
+/* Contact Page Styling */
+.contact-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* Header Section */
+.header {
+    background-color: inherit;
+    padding: 0 20px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Logo Styling */
+.navbar-logo {
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Contact Container */
+.contact-container {
+    width: auto;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    text-align: center;
+    min-height: 70vh;
+}
+
+/* Contact Headings */
+.contact-container h1 {
+    color: #2d7d46; /* Green heading */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.contact-container h2 {
+    color: #f0ad4e; /* Yellow for secondary heading */
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.contact-container h3{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* Contact Paragraphs */
+.contact-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contact-container strong {
+    color: #2d7d46; /* Green for emphasis */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-container h2 {
+        font-size: 1.3rem;
+    }
+
+    .navbar-logo {
+        height: 40px;
+    }
+}

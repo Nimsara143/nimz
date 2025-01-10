@@ -1,0 +1,23 @@
+body {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.footer-style {
+  font-size: 14px;
+  background-color: #2d7d46;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width:100vw;
+}

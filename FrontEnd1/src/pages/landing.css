@@ -1,0 +1,228 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    
+}
+.navbar-logo {
+    display: flex;
+    width: 70px;
+    height: auto;
+    object-fit: contain; /* Maintain proper proportions */
+    border-radius: 20%;
+    margin-right: 100px;
+   
+}
+
+
+.header {
+    position: absolute;
+    top: 0;
+    width:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+
+
+.navbar li {
+    margin: 10;
+    padding: 10px;
+    border-radius: 40%;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(10, 82, 40);
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    gap: 20px;
+    
+}
+
+.main-navbar{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20%;
+}
+
+.main-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+
+  
+}
+
+.leftsidemain{
+    margin-top: 100px;
+    padding: 0;
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.rightsidemain{
+    margin-top: 170px;
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.leftside-image{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    display: flex;
+}
+
+.leftside-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sinhala-description{
+    border: 1px solid rgb(55, 190, 55);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.landing h1 {
+    color: #2d7d46; 
+    font-size:32px; 
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px; 
+    line-height: 1.2; 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+}
+.landing h2 {
+        color: #9c0707; 
+        font-size:16px; 
+        font-weight: bold; 
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 5px; 
+        line-height: 1.2; 
+        text-transform: uppercase; 
+        letter-spacing: 1.5px; }
+
+ /* Shared Button Styles */
+.button {
+    padding: 10px 20px; /* Button padding */
+    margin: 5px; /* Small spacing between buttons */
+    font-size: 1rem; /* Text size */
+    font-weight: 600; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    border:none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Login Button - Primary */
+.login-button {
+    background-color: #2d7d46; /* Green background */
+    color: white; /* White text */
+    border: 2px solid #2d7d46;;
+}
+
+.login-button:hover {
+    background-color: white; /* White background on hover */
+    color: #2d7d46; /* Green text on hover */
+    border: 2px solid #2d7d46; /* Green border */
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+/* Register Button - Secondary */
+.register-button {
+    background-color: #f0ad4e; /* Orange background */
+    color: white; /* White text */
+    border: 2px solid #f0ad4e;
+}
+
+.register-button:hover {
+    background-color: white; /* White background on hover */
+    color: #f0ad4e; /* Orange text on hover */
+    border: 2px solid #f0ad4e; /* Orange border */
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+/* User Profile Icon */
+.user-profile {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+   
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2d7d46; /* Dark green background */
+    color: white; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .button {
+        width: 100%; /* Make buttons full width on smaller screens */
+        margin: 10px 0; /* Add spacing vertically */
+    }
+}
+       
+
